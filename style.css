@@ -6,26 +6,31 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(66, 64, 64);
 }
 
 input{
-    width: 62px;
+    border: none;
+    border-radius: 20%;
     color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin: 0 10px 5px 0;
     padding: 17px;
     outline: none;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-    border-radius: 20%;
+    width: 70px;
 }
 
 .text{
-    width: 160px;
-    height: 26px;
-    border-radius: 22px;
+    border: none;
+    font-size: 35px;
+    background-color: grey;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
     letter-spacing: 5px;
     text-align: center;
-    margin-bottom: 12px;
+    margin: 0 15px 12px 0;
 }
 
 .text1{
@@ -44,6 +49,20 @@ input{
 
 .maincolor{
     background-color: black;
+}
+
+.maincolor1{
+    border: none;
+    font-size: 35px;
+
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    background-color: grey;
+
 }
 
 .blue{
