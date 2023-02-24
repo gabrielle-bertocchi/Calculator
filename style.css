@@ -24,7 +24,7 @@ input{
 .text{
     border: none;
     font-size: 35px;
-    background-color: grey;
+    background-color: rgb(11, 7, 79);
     width: 200px;
     height: 35px;
     border-radius: 10px;
@@ -61,7 +61,7 @@ input{
     text-align: center;
     margin-bottom: 12px;
     cursor: pointer;
-    background-color: grey;
+    background-color: rgb(103, 102, 102);
 
 }
 
